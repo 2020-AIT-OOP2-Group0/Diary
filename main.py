@@ -1,6 +1,10 @@
 from diaries.SampleDiary import DiarySample
+from diaries.TomorrowDiary import TomorrowDiary
 
-diaries = [DiarySample(), ]
+diaries = [
+    DiarySample(), 
+    TomorrowDiary(),
+    ]
 
 for d in diaries:
     print("---------------------------------")
